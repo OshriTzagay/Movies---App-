@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+#theBG {
+  width: 97vw;
+  height: auto;
+  z-index: -100;
+}
+#navbar {
+  width: 98.7vw;
+  height: 15vh;
+  background-color: black;
+}
+#divcontainerSlideShow{
+  display: flex;
+  justify-content: center;
+  height: 120vh;
+}
+#slidePic{
+width: 500px;
+height: 650px;
+border: rgba(0, 128, 0, 0.507) solid 2px;
+box-shadow: rgba(0, 128, 0, 0.705) 7px 7px 7px 7px;
+}
+
+#navbar li {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Nosifer", cursive;
+  transition: 1s;
+  height: 50px;
+}
+#navbar li:hover {
+  background-color: rgba(255, 255, 255, 0.76);
+  /* height: 50px; */
+  color: rgb(0, 0, 0);
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#techImage {
+  height: 11vh;
+  width: 6vw;
+  border-radius: 120%;
+}
+body {
+  overflow-x:hidden ;
+  background-color: black;
+}
+#title2 {
+  font-size: 160px;
+  color: black;
+}
+#title {
+  margin-top: 20px;
+  font-size: 100px;
+  /* font-family: "Dancing Script", cursive;
+  /* box-shadow: white 5px 5px 5px 5px; */
+  font-family: "Abril Fatface", cursive;
+  width: 50vw;
+  border-bottom: solid black 3px;
+  border-bottom-style: groove;
+}
+#subTitle {
+  font-family: "Permanent Marker", cursive;
+  color: rgba(255, 0, 0, 0.39);
+  border-bottom: rgba(160, 11, 11, 0.452) 2px solid;
+  width: 320px;
+  border-top: rgba(199, 20, 20, 0.918) 1px solid;
+}
+span {
+  color: rgba(255, 0, 0, 0.295);
+}
+
+#firstSection img {
+  position: absolute;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  height: auto;
+  z-index: -100;
+}
+
+#firstSection {
+  position: relative;
+  color: white;
+  height: 70vh;
+  width: 100%;
+}
+
+#secondSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+  background-color: black;
+  width: 100%;
+  height: 50vh;
+  margin-top: 300px;
+}
+.moviesCards{
+    text-align: center;
+
+}
+
+
+
+.HotMovies {
+  font-size: 80px;
+  border-bottom: white solid 3px;
+  border-bottom-style:ridge;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  width: 800px;
+  color: white;
+  text-align: center;
+  margin-top: 230px;
+  margin-left: 25%;
+  font-family: "Abril Fatface", cursive;
+  
+}
+.theMoviesImgs{
+  width: 300px;
+  height: 300px;
+  transition: 2s;
+  border: rgb(148, 12, 12) solid 2px;
+  border-radius: 40%;
+}
+.theMoviesImgs:hover{
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+}
+
+#thirdSection{
+  margin-bottom: 400px;
+  /* display:flex; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  text-align:center;
+}
+#thirdSection h3{
+  font-size: x-large
+}
+#theGif{
+  margin-top: 100px;
+  margin-left: 45%;
+  width: 200px;
+  height: 200px;
+}
+
+/* .theActors img{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+.theActors img:hover{
+    width: 500px;
+    height: 400px;
+} */
+
+.actorsImgs{
+  display: block;
+  border-radius: 50%;
+  width: 400px;
+}
+footer {
+  width: 100vw;
+  background-color: black;
+  text-align: center;
+}
+a:visited {
+  color: white;
+}
+#spanHorror{
+    font-size: 40px;
+    font-family: "Nosifer", cursive;
+    color: red;
+}
+#spanAction{
+    font-size: 40px;
+    font-family: 'Black Ops One', cursive;
+    color: rgba(160, 11, 11, 0.452);
+}
+#spanComedy{
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+    color: rgba(255, 255, 0, 0.74);
+}
+#spanCartoon{
+    font-size: 40px;
+    color: gray;
+    font-family: "Abril Fatface", cursive;
+}

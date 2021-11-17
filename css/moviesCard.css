@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+#theBG {
+  width: 97vw;
+  height: auto;
+  z-index: -100;
+}
+#navbar {
+  width: 98.7vw;
+  height: 15vh;
+  background-color: black;
+}
+
+#navbar li {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: "Abril Fatface", cursive;
+  transition: 1s;
+  height: 50px;
+  
+}
+#navbar li:hover {
+  background-color: rgba(255, 255, 255, 0.76);
+  height: 60px;
+  color: black;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#techImage {
+  height: 11vh;
+  width: 6vw;
+  border-radius: 120%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+#container{
+    text-align: center;
+}
+#title{
+    margin-top: 10vh;
+    font-family: "Nosifer", cursive;
+    color: rgba(255, 0, 0, 0.418);
+    font-size: 100px;
+
+}
+#theMovies{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.moviesCard{
+    text-align: center;
+    width: 450px;
+    margin: 4px;
+    border: 2px solid white;
+    box-shadow: white 2px 2px 2px;
+
+}
+.moviesCardH2 {
+    font-family: "Abril Fatface", cursive;
+
+    
+}
+.moviesCardRates{
+font:caption;
+}
+.moviesCard img{
+    width: 400px;
+    height: 350px;
+}
+.delBtn{
+    color: white  ;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    background-color: black;
+    border: red solid 1px;
+    font-family: "Nosifer", cursive;
+    transition: 2s;
+}
+.delBtn:hover{
+  width: 100px;
+}
+#theSelector{
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size:25px;
+    font-family: "Nosifer", cursive;
+
+}
+
+#sortBtn{
+  box-shadow: white 3px 3px 3px 3px;
+    width: 95px;
+    height: 50px;
+    cursor: pointer;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+
+}
